@@ -1,5 +1,5 @@
 # Saida-s-homework
-Works
+Hi, there!
 This little portfolio shows some of my exercises for the Web confection and publishing course I'm taking.
 Every single line of code has been written by me, except for the libraries, of course. 
 Note that those are part of my learning process and have defined purposes, like understanding the use of the canvas, or the creation of an array and its visualization on the web page, etc. 
