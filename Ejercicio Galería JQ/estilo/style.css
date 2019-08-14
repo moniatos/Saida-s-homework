@@ -1,0 +1,145 @@
+@charset "utf-8";
+*{
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#203568;
+	color:white;
+}
+
+#cabecera{
+	background-color:#060A16;
+	height:90px;
+	position:static;
+	top:0px;
+	left:0px;
+	right:0px;
+}
+
+#logo{
+	height:30px;
+	margin-left:30px;
+	margin-top:35px;
+}
+
+#slogan{
+	height:250px;
+	text-align:right;
+	background: url(../imgs/ScreenShot04.png);
+}
+#slogan h2{
+	padding-top:80px;
+	padding-right:60px;
+}
+#galeria{
+	text-align:center;
+	width:80%;
+	margin:0 auto;
+	height:350px;
+}
+#galeria h2{
+	font-weight: normal;
+	margin-top:10px;
+}
+article{
+	width:35%;
+	float:left;
+	margin-left:120px;
+	margin-top:30px;
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+article h3{
+	height:50px;
+	padding-top:15px;
+	background-color:#3D658B;
+	text-align:center;
+}
+
+article img{
+	width:100%;
+
+}
+h3.activo, h3:hover{
+	background-color:#6490B9;
+}
+h3:before{
+	content:"";
+}
+h3.activo:before{
+	content:"";
+}
+#video{
+	clear:both;
+	background-color:#203568;
+	text-align:center;
+	padding-bottom:20px;
+}
+#video h2{
+	font-weight: normal;
+	margin-top:10px;
+}
+#info{
+	clear:both;
+	padding-top:50px;
+	padding-bottom:50px;
+	background:url(../imgs/ScreenShot15.png);
+	background-attachment: fixed;
+}
+#infoa{
+	width:70%;
+	background-color:#060A16;
+	opacity:0.7;
+	position:static;
+	left:0px;
+	padding:50px;
+	margin-bottom:40px;
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+#infob{
+	width:70%;
+	background-color:#060A16;
+	opacity:0.7;
+	float:right;
+	padding:50px;
+	margin-bottom:40px;
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+
+#infoc{
+	clear:both;
+	width:70%;
+	text-align:center;
+	background-color:#060A16;
+	opacity:0.7;
+	margin:0 auto;
+	padding:50px;
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+#infoc img{
+	width:40px;
+	margin-top:20px;
+	margin-left:10px;
+}
+#pie{
+	clear:both;
+	background-color:#060A16;
+	height:50px;
+}
+#pie p{
+	margin:0 auto;
+	text-align:center;
+	padding-top:10px;
+	opacity:0.5;
+}
+
