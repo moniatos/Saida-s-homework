@@ -1,0 +1,57 @@
+@charset "utf-8";
+#martillo{
+	position:absolute;
+	top:200px;
+	left:100px;
+	/*preparamos la animación*/
+	
+	animation:animacion_martillo 2s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	/*añadir prefijos navegadores*/
+}
+@keyframes animacion_martillo{
+	0%{transform:rotate(0deg);
+		top:0px;}
+	50%{transform:rotate(90deg);
+		top:50px;}
+	100%{transform:rotate(0deg);
+		top:0px;}
+}
+@-webkit-keyframes animacion_martillo{
+	0%{transform:rotate(0deg);
+		top:0px;}
+	50%{transform:rotate(90deg);
+		top:50px;}
+	100%{transform:rotate(0deg);
+		top:0px;}
+}
+
+#mesa{
+	position:absolute;
+	top:200px;
+	left:100px;
+}
+#clavo{
+	position:absolute;
+	top:150px;
+	left:200px;
+	/*preparamos la animación*/
+	
+	animation:animacion_clavo 2s;
+	animation-timing-function:ease;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	/*añadir prefijos navegadores*/
+}
+@keyframes animacion_clavo{
+	0%{transform:translate(0,0);}
+	50%{transform:translate(0,0);}
+	100%{transform:translate(0,40px);}
+}
+@-webkit-keyframes animacion_clavo{
+	0%{transform:translate(0,0);}
+	50%{transform:translate(0,0);}
+	100%{transform:translate(0,40px);}
+}

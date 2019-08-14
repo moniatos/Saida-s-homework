@@ -1,0 +1,29 @@
+@charset "utf-8";
+#izquierda{
+	width:850px;
+	margin:0 auto;
+	height:280px;
+}
+#menu{
+	padding:0;
+	display:block;
+	list-style-type:none;
+	width:840px;
+	margin:0 auto;
+}
+#menu li a{
+	display:block;
+	height:275px;
+	width:50px;
+	float:left;
+	border-right:2px solid #fff;
+	overflow:hidden;
+	transition: all 1s;
+}
+#menu li a img{
+	border:0;
+	width:300px;
+}
+#menu li a:hover{
+	width:300px;
+}
