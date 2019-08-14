@@ -1,0 +1,260 @@
+@charset "utf-8";
+html {
+  scroll-behavior: smooth;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Lato', sans-serif;
+	color:#5F5F5F;
+}
+										/*FORMATEO DE BOTONES*/
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.flotante{
+	z-index:80;
+	display:scroll;
+	position:fixed;
+	bottom:2em;
+	right:2em;
+	width:60px;	
+}
+body{
+	background:url(../imgs/back001.jpg);
+	background-attachment:fixed;
+	width:100%;
+}
+										/*HEADER*/
+header{
+	z-index:100;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	background-color:#0D3208;
+}
+										/*LINKS MENU HEADER*/
+header ul{
+	list-style:none;
+	margin:2.5em auto;
+	text-align:right;
+}
+#menu ul li{
+	display:inline-block;
+	
+	
+}
+header a{
+	text-decoration:none;
+	font-size:1.5em;
+	color:#c0a70d;
+	padding:1.5em;
+}
+header a:hover{
+	color:white;
+	text-decoration:none;
+	transition-duration:1s; 
+}
+
+										/*LOGO HEADER*/
+header img{
+	width:200px;
+	margin:1.5em;
+}
+										/*PROPIEDADES GALERIA PORTADA ANIMADA*/
+.prsntcn img{
+	width:100%;
+	z-index:95;
+}
+										/*PROPIEDADES FICHA SECCIONES*/
+.ficha{
+	clear:both;
+	background:white;
+	margin:2em auto;
+	padding:5em;
+}
+.ficha:first-child{
+	margin-top:5em;
+}
+.ficha:last-child{
+	margin-bottom:3em;
+}
+										/*CSS PARA EL PARQUE*/
+#parque{ 
+	text-align:justify;
+}
+#parque img{
+	display:block;
+	float:left;
+	margin-right:1em;
+	margin-bottom:1em;
+}
+#parque li{
+	list-style:none;
+	margin-right:1em;
+	color:#5F5F5F;
+}
+										/*CSS PARA FLORA Y FAUNA*/
+.respfauna{
+	display:none;
+}
+.contfich{
+	padding:0;
+	margin:0;
+}
+#fichaflor{
+	margin-top:2em;
+}
+#fichaff img{
+	float:right;
+}
+
+.pf{
+	margin:.5em;
+	padding:0.8em;
+	background-color:#79A174;
+	text-align:center;
+	color:white;
+	font-size:1em;
+	display:block;
+	}
+.pf:hover{
+		color:white;
+		background-color:#0D3208;
+}
+.pfcabecera{
+	margin:.5em;
+	padding:0.8em;
+	background-color:#0D3208;
+	text-align:center;
+	color:white;
+	font-size:1em;
+	display:block;
+	}
+									/*CSS PARA EL ACORDEON DE RUTA*/
+
+.ruts iframe{
+	float:right;
+}
+.contrut{
+	width:700px;
+	height:360px;
+}
+#acordeon h3.activo, h3:hover{
+	background-color:#79A174;
+	clear:both;
+}
+#acordeon h3:before{
+	content:"";
+}
+#acordeon h3.activo:before{
+	content:"";
+}
+.decargaruta a{
+	color:white;
+	font-weight:bold;
+	padding:1em;
+	display:inline-block;
+	background-color:#79A174;	
+}
+.decargaruta a:hover{
+	color:white;
+	background-color:#0D3208;
+}
+										/*CSS PARA INFO*/
+.hortarif{
+	margin-bottom:2em;
+}
+#actividades{
+	background-color:#0D3208;
+	padding:2em;
+	margin-bottom:2em;
+	color:white;
+	list-style:none;
+}
+#actividades h1{
+	color:white;
+}
+#actividades li{
+	color:white;
+}
+.reservar input, button{
+	width:60%;
+}
+#habs{
+	width:150px;
+}
+#pers{
+	width:150px;
+}
+button, input[type="submit"]{
+	background-color:#0D3208;
+	font-weight:bold;
+	color:white;
+	padding:1em 3em;
+	margin-top:3em;
+}
+.reservas{
+	margin-top:2em;
+}
+										/*EL FOOTER*/
+footer{
+	clear:both;
+	z-index:70;
+	position:static;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:#0D3208;
+}
+footer h2{
+	color:#061604;
+}
+footer p{
+	color:#061604;
+}
+.footerindo{
+	margin:0 auto;
+	padding:1em;
+}
+.news{
+	padding-left:6em;
+}
+.news input{
+	background-color:#092306;
+	margin-right:1em;
+}
+#susc{
+	background-color:#79A174;
+	padding:0 0.5em;
+	margin-top:1em;
+}
+.rrss img{
+	width:200px;
+}
+#linksfoot{
+	background-color:#092306;
+
+}
+.flinks{
+	margin-left:1.5em;
+}
+#linksfoot ul{
+	list-style:none;
+	text-align:left;
+	padding:.5em;
+}
+#linksfoot ul li{
+	display:inline-block;	
+}
+#linksfoot a {
+	color:#040E02;
+}

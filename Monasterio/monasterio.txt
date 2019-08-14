@@ -1,0 +1,20 @@
+
+Ejercicio Lunes 15 de Julio de 2019
+
+Página para el Parque natural del Monasterio de Piedra
+-Web responsive
+-Fondo de la página de piedra y sea visible
+-Contenedores para disponer la información de manera vertical
+-Cabecera con logo/nombre a la izquierda y Opciones del menú a la derecha:
+	·El parque
+	·Flora
+	·Fauna
+	·Rutas
+		-Opción para descargar un pdf con las rutas
+	·Info de interés
+		-Horarios dependiendo de las épocas del año
+		-Tarifas
+		-Actividades
+		-Precio de las entradas
+		-Reservas
+		

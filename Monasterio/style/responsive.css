@@ -1,0 +1,256 @@
+@charset "utf-8";
+@media only screen and (max-width:575px){
+	
+/*LOGO HEADER*/
+header img{
+	margin:1em;
+	width:150px;
+}
+#menu{
+	margin:0 auto;
+	text-align:center;
+}
+header ul{
+	margin:0 auto;
+	text-align:center;
+}
+#menu li{
+	margin-bottom:0.5em;	
+}
+header a{
+	font-size:1em;
+	padding:.2em;
+	margin:0 auto;
+}
+
+.prsntcn img{
+	margin-top:110px;
+	height:200px;
+}
+
+h1{
+	font-size:1.5em;
+	
+}
+h2{
+	font-size:1.2em;
+	}
+h3{
+	font-size:1em;	
+	}
+h4{
+	font-size:0.8em;	
+	}
+.ficha{
+	clear:both;
+	background-color:rgba(255, 255, 255, 0.65);
+	margin:0 auto;
+	padding:2em;
+}
+.ficha:first-child{
+	margin-top:0;
+}
+.ficha:last-child{
+	margin-bottom:3em;
+}
+/*CSS PARA EL PARQUE*/
+#parque{ 
+	text-align:justify;
+}
+#parque img{
+	display:block;
+	width:100%;
+}
+/*CSS FLORA*/
+.respfauna{
+	display:block;
+}
+.respfauna img{
+	display:block;
+	width:100%;
+	margin:0;
+}
+#fichaflor{
+	display:none;
+}
+/*	CSS RUTAS*/
+.rutframe{
+	display:none;
+}
+.decargaruta{
+	width:100%;	
+}
+/*CSS INFO*/
+#horarios h1{
+	background-color:#79A174;
+}	
+#tarifas h1{
+	background-color:#79A174;
+}	
+.reservar input, button{
+	width:100%;
+}
+#habs,#pers{
+	width:100%;
+}
+.reservar button{
+	margin-top:1em;
+}
+/*	CSS FOOTER*/
+.rrss{
+	display:none;	
+}
+.dapp img{
+	width:40%;	
+}
+.news{
+	padding-left:0;
+}
+.news input, button{
+	width:100%;
+}
+.news button{
+margin-top:1em;
+}
+	
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	
+#menu{
+	margin:0;
+	text-align:center;
+}
+h1{
+	font-size:2em;	
+}
+h2{
+	font-size:1.2em;
+	}
+h3{
+	font-size:1em;	
+	}
+h4{
+	font-size:0.8em;	
+	}
+header ul{
+	margin:0 auto;
+	text-align:center;
+}
+header a{
+	font-size:2em;
+	padding:.2em;
+	margin:0 auto;
+}
+.prsntcn img{
+	margin-top:180px;
+	height:200px;
+}
+
+.ficha{
+	clear:both;
+	background-color:rgba(255, 255, 255, 0.65);
+	margin:0 auto;
+	padding:2em;
+}
+.ficha:first-child{
+	margin-top:0;
+}
+/*CSS PARA EL PARQUE*/
+#parque{ 
+	text-align:justify;
+}
+#parque img{
+	display:block;
+	width:100%;
+}
+	/*CSS FLORA*/
+.respfauna{
+	display:block;
+}
+.respfauna img{
+	display:block;
+	width:100%;
+	margin:0;
+}
+#fichaflor{
+	display:none;
+}
+/*	CSS RUTAS*/
+.rutframe{
+	display:none;
+}
+/*	CSS RUTAS*/	
+.reservar input, button{
+	width:100%;
+}
+#habs,#pers{
+	width:100%;
+}
+.news{
+	padding-left:0;
+}
+.news button{
+	width:40%;
+}	
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+header ul{
+	margin:0 auto;
+	text-align:center;
+}
+header a{
+	font-size:2em;
+	padding:.2em;
+	margin:0 auto;
+}
+
+.ficha{
+	clear:both;
+	background-color:rgba(255, 255, 255, 0.65);
+	margin:0 auto;
+	padding:2em;
+}
+.ficha:first-child{
+	margin-top:0;
+}
+/*	CSS FLORA Y FAUNA*/
+.fichim img{
+	width:70%;
+}
+/*	CSS RUTAS*/	
+.ruts iframe{
+	float:none;
+}
+.reservar input, button{
+	width:100%;
+}
+#habs,#pers{
+	width:100%;
+}
+	
+.news{
+	padding-left:0;
+}
+.news button{
+	width:40%;
+}	
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+	/*	CSS FLORA Y FAUNA*/
+.fichim img{
+	width:80%;
+}
+/*	CSS RUTAS*/	
+.ruts iframe{
+	float:none;
+}
+}
+@media only screen and (min-width:1200px){
+	/*	CSS FLORA Y FAUNA*/
+.fichim img{
+	width:80%;
+}
+
+}
