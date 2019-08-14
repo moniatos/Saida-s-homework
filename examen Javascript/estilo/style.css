@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/*PROPIEDADES GENERALES PARA LA PÁGINA*/
+*{
+	font-family: 'Nunito Sans', sans-serif;
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#1D4F73;
+	/*éste color se deberá desactivar con el primer botón*/
+}
+body.colorfon{
+	background-color:white;
+}
+body.tamalet{
+	font-size:1.2em;
+}
+/*CSS PARA CABECERA, COMÚN A TODAS LAS PÁGINAS*/
+#cabecera{
+	color:white;
+	background-color:#11BDF3;
+	position:static;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:120px;
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+#cabecera h1{
+	padding-top:30px;
+	padding-left:30px;
+}
+#cabecera h4{
+	padding-top:10px;
+	padding-left:30px;
+}
+
+/*CUERPO DEL INDEX*/
+#cuerpo{
+	border-radius:3px;
+	background-color:rgba(148, 199, 214, 0.7);
+	float:left;
+	width:50%;
+	margin-top:50px;
+	margin-left:80px;
+	padding-left:60px;
+	height:500px;
+}
+#cuerpo img{
+	float:left;
+	margin-top:30px;
+	margin-left:30px;
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+/*efecto hover para las imágenes*/
+#cuerpo img:hover{
+	-webkit-box-shadow: 9px 10px 66px -19px rgba(255,255,255,1);
+	-moz-box-shadow: 9px 10px 66px -19px rgba(255,255,255,1);
+	box-shadow: 9px 10px 66px -19px rgba(255,255,255,1);
+}
+/*ASIDE DEL INDEX*/
+#infoaside{
+	background-color:rgba(148, 199, 214, 0.7);
+	font-family: 'Nunito Sans', sans-serif;
+	color:#092A42;
+	width:20%;
+	height:500px;
+	border-radius:3px;
+	padding:60px;
+	float:right;
+	display:inline-block;
+}
+#infoaside h2, p{
+	text-align:right;
+}
+#infoaside h3{
+	color:#1D4F73;
+}
+/*PIE COMUN A TODAS LAS PÁGINAS*/
+#pie{
+	clear:both;
+	background-color:#11BDF3;
+	height:60px;
+	position:static;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+#pie #boton1, #boton2{
+	margin-top:20px;
+	margin-left:10px;
+	font-weight: bold;
+	color:#1D4F73;
+	border-radius:25px;
+	padding:5px;
+}
+/*CSS PARA LAS PÁGINAS DE LOS DESTINOS TURÍSTICOS*/
+
+#ficha{
+	width:70%;
+	margin:50px auto;
+	padding:50px;
+	border-radius:3px;
+	background-color:rgba(148, 199, 214, 0.7);
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+#ficha h1{
+	color:#1D4F73;
+}
+#ficha #galeria img{
+	width:200px;
+	margin-top:20px;
+	margin-right:10px;
+}
+#ficha #infoficha{
+	margin:20px 0;
+}
+#ficha .txtfich{
+	text-align:justify;
+	margin-bottom:1em;
+}
+#ficha p a{
+	text-decoration:none;
+	font-weight: bold;
+	color:#1D4F73;
+	background-color:white;
+	border-radius:25px;
+	padding:5px;
+}
