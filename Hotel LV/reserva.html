@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hotel Lakeview</title>
+<link href="https://fonts.googleapis.com/css?family=DM+Sans|Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href="css/portada.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/portada.js"></script>
+</head>
+
+<body>
+
+
+<section class="container-fluid">
+	<header class="row cabecera">
+		<div class="col-sm-1" id="mostrar_nav"></div>
+		<nav id="nav-menu">
+			<ul class="menu">
+				<li><a href="habitaciones.html">Habitaciones</a></li>
+				<li><a href="lugares.html">Silent Hill</a></li>
+				<li><a href="reserva.html">Reservas</a></li>
+		
+			</ul>
+		</nav>
+		<h1 class="col-sm-10">Hotel Lakeview</h1>
+		<div class="col-sm-1" id="logohotel">
+		<a href="index.html">
+		<img src="images/logope.png" alt="logo">
+		</a>
+		</div>
+	</header>
+	<article class="row"><img class="col-xs-12 fotoportada"  src="images/reserve.jpg"></article>
+	<section class="row">
+		<article class="col-sm-4 izquierda">
+<h1>Acerca de Silent Hill...</h1><h2>Historia pre-colonización:</h2><p>El área dentro y alrededor de Silent Hill tiene una historia que se remonta en más de cuatro siglos, antes de la propia colonización de América por los ingleses. Las tribus locales de nativos americanos conocían el área del lago Toluca como "El lugar de los espíritus silenciosos", y durante mucho tiempo se consideró que tenía un tipo de significado espiritual y un misterioso aire de poder. Se consideraba un lugar sagrado, donde muchos de los rituales se realizaron de acuerdo con las creencias indígenas.</p> <h2>Siglo XVII</h2><p>Con la primera colonia británica permanente instituída en Jamestown, era sólo cuestión de tiempo antes de que los colonos se dirigiesen a este "lugar de los espíritus silenciosos". A finales de 1600 se dio la llegada de los colonos, que obligaría a los pueblos indígenas a marcharse de sus tierras sagradas. Estos colonos permanecieron en la zona hasta el cambio de siglo.</p><h2>Siglo XVIII</h2> <p>Al comienzo de la década de 1700, casi un siglo después de la colonización británica de América, comenzó una epidemia que se extendió por los alrededores del lago Toluca, incluido el creciente asentamiento que, con el tiempo, se conocería como Silent Hill. Con una gran parte de la población muerta, el asentamiento fue abandonado. No fue hasta después del comienzo del siglo XIX que comenzó el reasentamiento.</p><h2>Siglo XIX</h2><p>Un siglo después, una colonia penal se estableció cerca del lago Toluca. Llamado "Silent Hill" por primera vez bajo la ocupación de los no nativos, no se sabe si el nombre se basa en la designación original de la zona. Como colonia penal, establecieron tanto una prisión como un hospital, llamándolos Prisión de Silent Hill y Hospital Brookhaven, respectivamente.</p><p>En ese momento, una segunda epidemia amenazó el pueblo. El hospital Brookhaven fue objeto de mucho uso durante aquellos tiempos oscuros. Debilitada por el nuevo brote de la plaga, la prisión de Silent Hill fue cerrada en 1840, disminuyendo aún más la población. Con la llegada de la década de 1850, sin embargo, vino el descubrimiento de un yacimiento de carbón debajo de Silent Hill. Esto causó un gran resurgimiento del interés en la zona y mejoras en la economía, contribuyendo a la revitalización del pueblo. Durante los últimos años del siglo XIX, cuatro familias abandonaron Silent Hill, fundando el vecino pueblo de Shepherd's Glen.</p><p>En 1861 la Guerra Civil estalló, influyendo en el desarrollo de Silent Hill todo el tiempo que duró el conflicto. Durante 1862 se construyó la Prisión Toluca como un campo de prisioneros de guerra, y posteriormente se convirtió en un centro penitenciario formal con el fin de la guerra. La tragedia golpeó de nuevo cuando, alrededor de 1890, la gente empezó a desaparecer misteriosamente de Silent Hill. Para el cambio de siglo, la prisión Toluca fue cerrada, y se estableció como museo, conocido como la Sociedad Histórica de Silent Hill.</p><h2>Siglo XX</h2><p>Actualmente Silent Hill es un pueblo tranquilo de bullente actividad económica.</p>
+		</article>
+		<article class="col-sm-4 central">
+<h3 class="subtitulo1">Ventajas de reservar con nosotros</h3>
+          <ul>
+            <li>Ofertas y promociones</li>
+            <li>Detalle de bienvenida</li>
+            <li>Desayuno gratis para 2 personas</li>
+            <li>Descuentos en el parque de atracciones</li>
+          </ul>
+          <h3 class="subtitulo1">Localización</h3>
+		<img class="mapa" src="images/map.jpg">
+		</article>
+		<article class="col-sm-4 derecha">
+<h2>Reserve su estancia:</h2>
+		  <form id="modopago" method="post" action="#">
+			  <fieldset><legend>Sus datos</legend>
+	<ol>
+		<li><label for="nombre">Nombre</label>
+		<input type="text" id="nombre" name="nombre" required autofocus placeholder="Nombre y apellidos"></li>
+		<li>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="direccion@dominio.com" required>
+		</li>
+		<li><label for="telefono">Teléfono</label>
+		<input type="tel" id="telefono" name="telefono" placeholder="Ej.+34000000000" required></li>
+	</ol>
+	</fieldset>
+	<fieldset><legend>Servicios</legend>
+	<ol>
+		<li>
+			<label for="entrytime">Entrada:</label><input type="datetime" placeholder="dd/mm/aaa" name="entrytime">
+		</li>
+		<li>
+			<label for="exittime">Salida:</label><input type="datetime" placeholder="dd/mm/aaa" name="exittime">
+		</li>
+		<li>
+				<label for="cvv">Habitaciones</label>
+				<input type="text" required>
+		</li>
+		<li>
+				<label for="cvv">Adultos</label>
+				<input type="text" required>
+		</li>
+		<li>
+				<label for="cvv">Niños</label>
+				<input type="text">
+		</li>
+		<li>
+				<label for="est">Tipo habitación</label>
+					<select name="provincia2">
+						<option value="clas">Simple</option>
+						<option value="moder">Doble</option>
+						<option value="vang">Doble con cama supletoria</option>
+						
+					</select>
+		</li>
+		<li>
+				<label for="est">Régimen</label>
+					<select name="provincia2">
+						<option value="clas">Pensión completa</option>
+						<option value="moder">Media pensión</option>
+						<option value="vang">Sólo alojamiento</option>
+					</select>
+		</li>
+	</ol>
+	</fieldset>
+	<fieldset>
+		<legend>Forma de Pago</legend>
+		<ol>
+			<li>
+				<fieldset>
+					<legend>Tipo de tarjeta de crédito</legend>
+					<ol>
+					<li><input type="radio" name="TipoTarjeta" value="visa" id="TipoTarjeta_0"><label for="visa">Visa</label></li>
+					
+					<li><input type="radio" name="TipoTarjeta" value="amex" id="TipoTarjeta_1"><label for="amex">AmEx</label></li>
+					
+					<li><input type="radio" name="TipoTarjeta" value="mascar" id="TipoTarjeta_2"><label for="mascar">Mastercard</label></li>
+					</ol>
+				</fieldset>
+			</li>
+			<li>
+				<label for="numtarjeta">Nº de tarjeta</label>
+				<input type="text" id="numtarjeta" name="numtarjeta" placeholder="xxxx-xxxx-xx-xxxxxxxxxx" required>
+			</li>
+			<li>
+				<label for="cvv">CVV</label>
+				<input type="text" id="cvv" name="cvv" placeholder="xxx" required>
+			</li>
+			<li>
+				<label for="titular">Titular</label>
+				<input type="text" id="titular" name="titular" placeholder="Nombre Apellido Apellido" required>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+		<button type="submit">Reservar</button><button type="submit">Borrar</button>
+	</fieldset></form>
+		</article>
+	</section>	
+	<footer class="row piepagina">
+		<h5>Hotel Lakeview ***** Paleville Resort Area</h5>
+	</footer>
+	
+</section>
+</body>
+</html>

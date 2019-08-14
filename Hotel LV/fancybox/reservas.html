@@ -1,0 +1,151 @@
+﻿<!doctype>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="descripción" content="Práctica Hotel"/>
+	
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/hotel.css" rel="stylesheet" type="text/css">
+	
+	<title>HOTEL FLEX</title>
+	<link rel="stylesheet" href="grip/flexboxgrid.min.css"/>
+	
+	<script type="text/javascript" src="Jquery/jquery-3.0.0.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.min.js"></script>
+	<script type="text/javascript" src="js/hotel.js"></script>
+	
+</head>
+
+<body>
+<header>
+<div id="cabecera">
+	<div id="mostrar-nav"></div>
+	<nav>
+		<ul class="menu">
+			<li><a href="servicios.html">Nuestros servicios</a></li>
+			<li><a href="lugares.html">Lugares con encanto</a></li>
+			<li><a href="reservas.html">Reservas</a></li>
+			<li style="box-shadow:18em 0 rgba(71,14,14,.3) inset;"><a href="index.html"><img src="images/logope.png" style="margin-top:0.5em;"/></a></li>
+		</ul>
+	 </nav>
+	<img src="images/logo.png" id="logo"/>
+	<h1>Hotel Flex Plaza <img src="images/estrella.png"/></h1>
+	<h4>Plaza del Alojamiento, 7 &bull; Madrid 28020 &bull; España</h4>
+</div>
+	<script>
+		$("#mostrar-nav").on("click",function(){
+		$("nav").toggleClass("mostrar");})
+	</script>
+<div class="fotoscabecera">
+	<img src="images/timbre.jpg"/>
+</div>	
+</header>
+
+
+<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<div class="ladillos">
+				<h2><br>Más de 20 años<br>dando alojamiento<br>en el centro de <br>Madrid<br><br></h2>
+			</div>
+		</div>
+	
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<div class="contenido">
+				<p><br><strong>¿Por qué reservar con nosotros?</strong><br><br> Por que puede obtener estos exclusivos beneficios:<br>&bull;  Mejores tarifas garantizadas<br>&bull;  Ganar Starpoints<br>&bull;  Wi-Fi gratis en su habitación<br><br></p>
+			</div>
+		</div>
+<!--Formulario-->
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<div class="informacion">
+			<p><br><strong style="background-color:rgb(71,14,14); color:white; font-size:1em; padding:0.5em; margin-left:-1.6em; line-height:0.1em;">RESERVE SU ESTANCIA</strong></p>
+            <form class="formu" name="fvalida">
+					<div class="fechas">
+						<br/>
+						<label for="fechain">Llegada</label>
+						<input type="date" id="fechain"/><br/><br/>
+						<label for="fechaout">Salida</label>
+						<input type="date" id="fechaout"/><br/>
+					</div>
+						<hr/>
+					<div class="rooms">
+						<label for="cantidad">Habitaciones</label>
+						<input type="number" min="1" max="10" value="1" id="cantidad"/><br/><br/>
+						<label for="adultos">Adultos</label>
+						<input type="number" min="1" max="20" value="1" id="adultos"/>
+						<label for="nenes">&nbsp; Niños</label>
+						<input type="number" min="0" max="4" value="0" id="nenes"/><br/>
+                    </div>    
+                        <hr/>
+					<div class="rooms">
+						<label for="room" style="vertical-align:top;">Tipo de habitación</label>
+						<select id="room" name="room" size="3">
+							<option value="pikolins" selected="selected">Pikolín Simple</option>
+							<option value="pikolind">Pikolín Doble</option>
+							<option value="lomonacos">Lo Monaco Simple</option>
+							<option value="lomonacod">Lo Monaco Doble</option>
+							<option value="flexs">Flex Simple</option>
+							<option value="flexd">Flex Doble</option>
+							<option value="suite">Suite</option>
+						</select>
+						<br/>
+					</div>
+					<div class="rooms">
+						<label for="regimen" style="vertical-align:top;">Régimen</label>
+						<select id="regimen" name="regimen" size="3">
+							<option value="alojamiento" selected="selected">Sólo Alojamiento</option>
+							<option value="desayuno">Desayuno</option>
+							<option value="media">Media Pensión</option>
+							<option value="completa">Pensión Completa</option>
+							<option value="todo">Todo Incluido</option>
+						</select>
+						<br/>
+					</div>
+					<hr/>
+					<div class="rooms">
+						<label for="nombre">Nombre</label>
+						<input type="text" min="1" max="10" id="nombre"/><br/><br/>
+						<label for="apellidos">Apellidos</label>
+						<input type="text" min="1" max="20" id="apellidos"/><br/><br/>
+						<label for="email">Correo</label>
+						<input type="email" name="email" size="30" maxlength="100" placeholder="@"><br/>
+                    </div>    
+                        <hr/>
+					<div class="rooms">
+						<input type="button" class="boton" value=	"Reservar ahora" onclick="valida_envia()">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+						<input type="reset" class="boton" value="Borrar">
+					</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<div class="fotostres">
+				<img src="images/bar.jpg" alt="Bar"/><h5>Bar</h5>
+			</div>
+		</div>
+	
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<div class="fotostres">
+				<img src="images/buffet.jpg" alt="Buffet"/><h5>Buffet</h5>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<div class="fotostres">
+				<img src="images/aparcamiento.jpg" alt="Aparcamiento"/><h5>Aparcamiento</h5>
+			</div>
+		</div>
+	</div>		
+</div>
+	<footer class="row">
+		<div class="col-xs-12">
+			<div class="footer">
+				<h4><br>Plaza del Alojamiento, 7&nbsp; |&nbsp; Madrid 28020 &nbsp; |&nbsp;  España &nbsp;|&nbsp;  Teléfono (34) 91 555 77 77  &nbsp;|&nbsp;  www.hotelflexplaza.es &nbsp;|&nbsp;  informacion@hotelflexplaza.es </h4>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
